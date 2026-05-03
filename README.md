@@ -17,6 +17,14 @@
 rsync -a --progress --delete --checksum  --exclude '.*/' . /tmp/backup
 ```
 
+Содержимое домашней папки, есть каталоги начинающиеся с точки:
+
+![screen](https://github.com/igorsprint-code/sflt-homeworks_3/blob/main/Zadanie1_ll_home.jpg)
+
+
+Результат выполнения команды (в директории /tmp/backup нет каталогов начинающихся с точки):
+
+![screen](https://github.com/igorsprint-code/sflt-homeworks_3/blob/main/Zadanie%201_result.jpg)
 
 ---
 
