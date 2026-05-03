@@ -45,7 +45,7 @@ rsync -a --progress --delete --checksum  --exclude '.*/' --exclude 'script_backu
 
 crontab:
 ```
-17 14 * * * /home/igor/script_backup.sh
+21 14 * * * /home/igor/script_backup.sh
 ```
 
 
