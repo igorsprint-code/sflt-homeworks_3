@@ -43,6 +43,10 @@ rsync -a --progress --delete --checksum  --exclude '.*/' . /tmp/backup
 rsync -a --progress --delete --checksum  --exclude '.*/' --exclude 'script_backup.sh' . /tmp/backup
 ```
 
+crontab:
+```
+17 14 * * * /home/igor/script_backup.sh
+```
 
 
 ---
