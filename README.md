@@ -37,6 +37,13 @@ rsync -a --progress --delete --checksum  --exclude '.*/' . /tmp/backup
 
 ### Решение
 
+Скрипт:
+```bash
+#!/bin/bash
+rsync -a --progress --delete --checksum  --exclude '.*/' --exclude 'script_backup.sh' . /tmp/backup
+```
+
+
 
 ---
 
